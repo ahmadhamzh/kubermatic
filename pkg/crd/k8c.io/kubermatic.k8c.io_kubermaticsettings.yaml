@@ -123,6 +123,8 @@ spec:
                   default: false
                   description: EnableWebTerminal enables the Web Terminal feature for the user clusters.
                   type: boolean
+                hideEnforcedSettings:
+                  type: boolean
                 machineDeploymentOptions:
                   properties:
                     autoUpdatesEnabled:
@@ -225,6 +227,7 @@ spec:
                 - enableDashboard
                 - enableExternalClusterImport
                 - enableOIDCKubeconfig
+                - hideEnforcedSettings
                 - mlaAlertmanagerPrefix
                 - mlaGrafanaPrefix
                 - restrictProjectCreation

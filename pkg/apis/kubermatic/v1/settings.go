@@ -66,6 +66,7 @@ type SettingSpec struct {
 	UserProjectsLimit       int64 `json:"userProjectsLimit"`
 	RestrictProjectCreation bool  `json:"restrictProjectCreation"`
 	RestrictProjectDeletion bool  `json:"restrictProjectDeletion"`
+	HideEnforcedSettings    bool  `json:"hideEnforcedSettings"`
 
 	EnableExternalClusterImport bool `json:"enableExternalClusterImport"`
 
